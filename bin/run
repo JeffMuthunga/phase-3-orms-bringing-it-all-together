@@ -1,0 +1,9 @@
+require_relative '../config/environment'
+
+require 'pry'
+Dog.create_table
+Dog.create(name: "BOSCO", breed: "Tomiyasu")
+Dog.create(name: "Jeff", breed: "hbjbjs")
+
+
+binding.pry
